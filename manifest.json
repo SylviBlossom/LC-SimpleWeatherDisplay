@@ -1,8 +1,8 @@
 {
-    "name": "TemplateMod",
+    "name": "SimpleWeatherDisplay",
     "version_number": "1.0.0",
     "website_url": "",
-    "description": "A mod for Lethal Company",
+    "description": "Adds a simple weather display to the ship screen",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
     ]

@@ -1,2 +1,2 @@
-# TemplateMod
-A template for a BepInEx 5 Plugin, using the correct .csproj configuration for Lethal Company modding
+# SimpleWeatherDisplay
+Adds a simple weather display to the ship screen

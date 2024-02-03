@@ -1,6 +1,6 @@
 {
     "name": "SimpleWeatherDisplay",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/SylviBlossom/LC-SimpleWeatherDisplay",
     "description": "Adds a simple weather display to the ship screen and landing sequence",
     "dependencies": [

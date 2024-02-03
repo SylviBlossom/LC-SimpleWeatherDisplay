@@ -19,6 +19,12 @@
         <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\lib-stripped\Managed-v49-strip\Assembly-CSharp.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
       <Exec Command="call &quot;$(SolutionDir)\buildpackage.bat&quot; &quot;$(TargetDir)&quot; &quot;$(SolutionDir)&quot; &quot;$(ProjectName)&quot;" />
     </Target>
